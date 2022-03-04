@@ -93,7 +93,6 @@
 // }
 // but we can not perform a function using interface because we can only declare method, variables using interface  
 
-
 // let point: Point =new Point();
 // New keyword is used to create an instance of an object that has a constructor function. On calling the constructor function with 'new' operator, the following actions are taken: A new empty object is created. 'this' variable is made to point to the newly created object
 
@@ -105,6 +104,8 @@
 
 // class Point{
 //         constructor(private _x?: number, private _y?: number){
+// optional means property may or may not exist 
+// eg foo?: number means that the property foo may not exist 
 //         this.x = x;
 //         this.y = y;
 //     }
@@ -132,3 +133,8 @@
 
 // let point =new Point(1, 2);
 // point.draw();
+
+// setter and getter:
+// A getter method returns the value of the property’s value. A getter is also called an accessor.
+// A setter method updates the property’s value. A setter is also known as a mutator.
+// A getter method starts with the keyword get and a setter method starts with the keyword set
